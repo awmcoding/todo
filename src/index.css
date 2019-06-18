@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.content {
+    max-width: 960px;
+    margin: 0 auto;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.btn{
+    background: transparent;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+    padding: 7px 25px;
+    border-radius: 2px;
+    transition: background-color .2s ease-out;
+    text-transform: uppercase;
+}
+.todo-list{
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #DCDCDC;
+    font-size: 18px;
+}
+.delete{
+    margin-left: auto;
+    border: 0;
+    background: transparent;
+    color: red;
+}
+.buttons{
+    margin-top: 50px;
+}
+.buttons .btn{
+    margin-right: 16px;
+}
+.add-todo{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.todo-form input{
+    border: 1px solid #DCDCDC;
+    padding: 7px;
+    width: 30%;
 }
